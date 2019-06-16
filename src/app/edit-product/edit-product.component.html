@@ -1,0 +1,39 @@
+<h4 mat-dialog-title>
+    Edit Product
+</h4>
+<mat-dialog-content>
+    <form [formGroup]="loginForm" novalidate>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter user title" formControlName="title">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter user amount" formControlName="amount">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter user restraurant" formControlName="restro">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter user like" formControlName="like">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter user name" formControlName="order">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter area" formControlName="area">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="Enter description" formControlName="description">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <input readonly matInput placeholder="image" formControlName="imgSrc">
+        </mat-form-field>
+        <!-- <mat-form-field class="example-full-width">
+            <input hidden matInput formControlName="id">
+        </mat-form-field> -->
+    </form>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button (click)="close('Cancel')">Cancel</button>
+    <button mat-raised-button color="primary" [disabled]="loginForm.invalid" (click)="editData()">Update</button>
+</mat-dialog-actions>

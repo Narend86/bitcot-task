@@ -1,0 +1,111 @@
+{
+    "response": [{
+            "title": "5 PEPPER",
+            "amount": 299,
+            "name": "spicy",
+            "description": "Dominos introduces 5 Peppers an exotic new Pizza. Topped wih red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinked with exotic herb",
+            "imgSrc": "assets/images/a.jpg",
+            "restro": "sayaji",
+            "area": "vijay nagar",
+            "like": 420,
+            "order": 123,
+            "id": 1
+        },
+        {
+            "title": "CHEESE N CORN",
+            "amount": 399,
+            "name": "sweet",
+            "description": "Cheese I Golden Corn",
+            "imgSrc": "assets/images/b.jpeg",
+            "restro": "just paratha",
+            "area": "vijay nagar",
+            "like": 189,
+            "order": 19,
+            "id": 2
+        },
+        {
+            "title": "DELUXE VEGGIE",
+            "amount": 499,
+            "name": "delicious",
+            "description": "For a vegetarian looking for a BIG treat that goes easy on the spices, this ones got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.",
+            "imgSrc": "assets/images/c.jpeg",
+            "restro": "sayaji",
+            "area": "capsicon",
+            "like": 11,
+            "order": 6,
+            "id": 3
+        },
+        {
+            "title": "VEGGIE PARADISE",
+            "amount": 299,
+            "name": "sour",
+            "description": "Paneer and Capsicum on Makhani Sauce",
+            "imgSrc": "assets/images/d.jpg",
+            "restro": "black paper",
+            "area": "vijay nagar",
+            "like": 7,
+            "order": 12,
+            "id": 4
+        },
+        {
+            "title": "DOUBLE CHEESE MARGHERITA",
+            "amount": 499,
+            "name": "sweet",
+            "description": "The ever-popular Margherita - loaded with extra cheese... oodies of it!",
+            "imgSrc": "assets/images/e.jpg",
+            "restro": "ma ki rasoi",
+            "area": "chankya puri",
+            "like": 304,
+            "order": 190,
+            "id": 5
+        },
+        {
+            "title": "FARM HOUSE",
+            "amount": 299,
+            "name": "spicy",
+            "description": "A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+            "imgSrc": "assets/images/f.png",
+            "restro": "gyani ji dhaba",
+            "area": "bhanwar kuan",
+            "like": 201,
+            "order": 203,
+            "id": 6
+        },
+        {
+            "title": "FRESH VEGGIE",
+            "amount": 399,
+            "name": "spicy",
+            "description": "Onion I Capsicum",
+            "imgSrc": "assets/images/g.jpg",
+            "restro": "dhaba junction",
+            "area": "palasia",
+            "like": 300,
+            "order": 1423,
+            "id": 7
+        },
+        {
+            "title": "MEXICAN GREEN WAVE",
+            "amount": 299,
+            "name": "spicy",
+            "description": "A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+            "imgSrc": "assets/images/h.jpg",
+            "restro": "sayaji",
+            "area": "vijay nagar",
+            "like": 510,
+            "order": 130,
+            "id": 8
+        },
+        {
+            "title": "PANEER MAKHANI",
+            "amount": 499,
+            "name": "sweet",
+            "description": "Paneer and Capsicum on Makhani Sauce",
+            "imgSrc": "assets/images/i.jpg",
+            "restro": "sayaji",
+            "area": "vijay nagar",
+            "like": 120,
+            "order": 45,
+            "id": 9
+        }
+    ]
+}

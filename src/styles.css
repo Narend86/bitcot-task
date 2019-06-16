@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+button:focus {
+    outline: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mat-card-wrapper {
+        height: auto !important;
+    }
+    .mat-card-wrapper .mat-card-title {
+        display: block;
+    }
+    .food-header-wrapper span {
+        top: 16px;
+        left: 53px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .mat-card-wrapper {
+        height: auto !important;
+    }
+    .mat-card-wrapper .mat-card-title {
+        display: block;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .mat-card-wrapper {
+        height: auto !important;
+    }
+    .mat-card-wrapper .mat-card-title {}
+}

@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+
+    <mat-toolbar-row>
+        <span>BitCot</span>
+        <span class="example-spacer"></span>
+        <button *ngIf="showLogin" mat-button routerLink="/login">
+            <mat-icon class="example-icon m-2" >near_me</mat-icon> Login
+        </button>
+
+        <button *ngIf="showLogout" mat-button (click)="logout()">
+          <mat-icon class="example-icon m-2" >near_me</mat-icon> Logout
+        </button>
+
+    </mat-toolbar-row>
+</mat-toolbar>

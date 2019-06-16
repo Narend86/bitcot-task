@@ -1,0 +1,71 @@
+.btn-wrapper {
+    position: absolute;
+    right: 3%;
+    top: -7px;
+}
+
+.header-title-wrapper {
+    position: relative;
+}
+
+.example-card {
+    max-width: 300px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.post-header-title-wrapper {
+    background-color: #e9ecef;
+    width: 100%;
+}
+
+.post-header-title {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.food-header-wrapper .mat-card-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.food-header-wrapper {
+    position: relative;
+}
+
+.food-header-wrapper span {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+}
+
+.like-wrapper span {
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+.dish-name-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.like-sub-wrapper {
+    display: inline-block;
+}
+
+.mat-card-wrapper {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.edit-btn-wrap {
+    margin-right: 10px;
+}
+
+.content-wrap {}
+
+.mat-card-wrapper {}
