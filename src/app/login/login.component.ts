@@ -38,11 +38,13 @@ export class LoginComponent implements OnInit {
     
     if(item.userName === this.user && item.password === this.password){
       localStorage.setItem('currentUser', JSON.stringify(item));
-      console.log(localStorage.length)
+      
       this.router.navigate(['/home']);
       if(localStorage.length===1){
         this.appService.changesBehaviour(true);
+        console.log(localStorage.length)
       }else{
+        console.log(localStorage.length)
         this.appService.changesBehaviour(false);
       }
       

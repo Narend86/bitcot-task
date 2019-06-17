@@ -10,6 +10,8 @@ import { DetailsComponent } from '../details/details.component';
 })
 export class HomeComponent implements OnInit {
   allData;
+  userInfo;
+  username;
   date = new Date();
   constructor(public appService:AppService,
     public snackBar: MatSnackBar,public dialog: MatDialog) { }
@@ -20,6 +22,8 @@ export class HomeComponent implements OnInit {
       this.allData = data.response;
       
     });
+    this.userInfo = localStorage.getItem('currentUser');
+    this.username = JSON.parse(this.userInfo);
   }
   detailCard(item) {
     const dialogRef = this.dialog.open(DetailsComponent,{

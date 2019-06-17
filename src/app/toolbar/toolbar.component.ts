@@ -16,22 +16,28 @@ export class ToolbarComponent implements OnInit {
   constructor(private router: Router,
     public snackBar: MatSnackBar,
     public appService: AppService) {
+      this.appService.showBehaviour.subscribe(data=>{
+        this.showLogout = data; 
+        this.showLogin = false;
+      })
       
   }
 
   ngOnInit() {
-    this.getUserInfo = localStorage.getItem('currentUser');
-    this.userName = JSON.parse(this.getUserInfo);
-    this.appService.showBehaviour.subscribe(data=>{
-      this.showLogout = data; 
-      this.showLogin = false;
-    })
     
-    if (this.userName !== null) {
-      console.log('hello')
-      
+    if (localStorage.length===1) {
+      this.appService.showBehaviour.subscribe(data=>{
+        this.showLogout = data; 
+        this.showLogin = false;
+        this.getUserInfo = localStorage.getItem('currentUser');
+        this.userName = JSON.parse(this.getUserInfo);
+      })
+         
     } else {
-     
+      console.log('bye')
+      this.showLogin = true;
+      this.showLogout= false;
+
     }
   }
 

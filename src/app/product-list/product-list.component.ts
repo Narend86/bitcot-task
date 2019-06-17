@@ -12,10 +12,11 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit() {
     this.appService.sendJson().subscribe(data=>{
-      console.log(data.response)
+  
       this.allData = data.response;
-      console.log(this.allData)
+      
     });
+    
   }
 
 }
